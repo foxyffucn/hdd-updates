@@ -2,6 +2,15 @@
   "format": "hdd-update-feed-v1",
   "patches": [
     {
+      "id": "hdd-offline-085-fairy-factory-version-alignment",
+      "requires": "hdd-offline-084-fairy-english-factory-output",
+      "title": "Patch 085 // FAIRY FACTORY 1.0.3 ALIGNMENT",
+      "notes": "Updated Fairy factory version marker to 1.0.3, matching bundled modules. Prevents redundant module updates on fresh installations. Existing configured Fairy installations and all personal settings are untouched.",
+      "url": "https://foxyffucn.github.io/hdd-updates/patches/hdd-offline-085-fairy-factory-version-alignment.zip",
+      "sha256": "0d78dd6bdfa8c4bbf06bcdb59073ff41a60405ad46ad6264bcf13a00023022c8",
+      "size_bytes": 9070343
+    },
+    {
       "id": "hdd-offline-084-fairy-english-factory-output",
       "requires": "hdd-offline-083-language-default-ui-consistency",
       "title": "Patch 084 // FAIRY ENGLISH VOICE FACTORY DEFAULT",
