@@ -1,0 +1,14 @@
+{
+  "format": "hdd-update-feed-v1",
+  "patches": [
+    {
+      "id": "hdd-offline-078-explorer-large-icons-fullscreen",
+      "requires": "hdd-offline-077-signed-fairy-module-updates",
+      "title": "Patch 078 // Explorer: Large Icons + Fullscreen",
+      "notes": "File Explorer now supports F11 fullscreen, large icons with async image thumbnails, folder navigation, persistent view mode, and wider filenames in details view.",
+      "url": "https://foxyffucn.github.io/hdd-updates/patches/hdd-offline-078-explorer-large-icons-fullscreen.zip",
+      "sha256": "ad0f0331c141ff00d286ad296be468e86b7a8a4678011d1d20d2d99003fc38b9",
+      "size_bytes": 10086
+    }
+  ]
+}
