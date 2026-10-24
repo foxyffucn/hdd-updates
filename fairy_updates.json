@@ -2,6 +2,16 @@
   "format": "hdd-fairy-update-feed-v1",
   "updates": [
     {
+      "id": "fairy-module-002-english-voice-factory-default",
+      "requires": "1.0.2",
+      "version": "1.0.3",
+      "title": "Fairy 1.0.3 // English Voice by Default",
+      "notes": "New Fairy profiles default to en-US replies and English Edge-TTS, with English microphone priority. Existing saved user language choices are preserved; Configure Language is still required before first Reboot.",
+      "url": "https://foxyffucn.github.io/hdd-updates/fairy/fairy-module-002-english-voice-factory-default.zip",
+      "sha256": "01624dfe414f00e6c8806f8a5dabdef8086a4ea8703fc02c42d904b9060028bf",
+      "size_bytes": 11536
+    },
+    {
       "id": "fairy-module-001-english-ui-default",
       "requires": "1.0.1",
       "version": "1.0.2",

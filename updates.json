@@ -2,6 +2,15 @@
   "format": "hdd-update-feed-v1",
   "patches": [
     {
+      "id": "hdd-offline-084-fairy-english-factory-output",
+      "requires": "hdd-offline-083-language-default-ui-consistency",
+      "title": "Patch 084 // FAIRY ENGLISH VOICE FACTORY DEFAULT",
+      "notes": "Configure Language starts in English (en-US) for new installations, including spoken responses and Edge-TTS voice. Microphone prioritizes English, and PT-BR/ES remain options. Existing language selections and the manual Reboot language requirement are unchanged.",
+      "url": "https://foxyffucn.github.io/hdd-updates/patches/hdd-offline-084-fairy-english-factory-output.zip",
+      "sha256": "c9a4fea3ea7be287957e4130b7eb57ef8f97a183e9a899591741645ae7fd2bdc",
+      "size_bytes": 9070409
+    },
+    {
       "id": "hdd-offline-083-language-default-ui-consistency",
       "requires": "hdd-offline-082-fairy-console-free-setup",
       "title": "Patch 083 // LANGUAGE DEFAULT & UI CONSISTENCY",
