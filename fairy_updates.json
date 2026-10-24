@@ -1,4 +1,15 @@
 {
   "format": "hdd-fairy-update-feed-v1",
-  "updates": []
+  "updates": [
+    {
+      "id": "fairy-module-001-english-ui-default",
+      "requires": "1.0.1",
+      "version": "1.0.2",
+      "title": "Fairy 1.0.2 // Independent UI Language Default",
+      "notes": "Default interface to English when no UI language has been selected, independent of the reply/TTS or microphone languages. Existing explicit PT-BR/Spanish UI choices remain respected.",
+      "url": "https://foxyffucn.github.io/hdd-updates/fairy/fairy-module-001-english-ui-default.zip",
+      "sha256": "840561d8a19cd663084cb7b5347032f63794e36286a67fb312643ef2beab00d0",
+      "size_bytes": 1913
+    }
+  ]
 }

@@ -2,6 +2,15 @@
   "format": "hdd-update-feed-v1",
   "patches": [
     {
+      "id": "hdd-offline-083-language-default-ui-consistency",
+      "requires": "hdd-offline-082-fairy-console-free-setup",
+      "title": "Patch 083 // LANGUAGE DEFAULT & UI CONSISTENCY",
+      "notes": "Language consistency: fixes mixed English/Portuguese captions, boot messages, update statuses and session logs; logs retranslate when changing language. New Fairy installations default their interface to English independently of the voice or microphone languages. Existing explicit UI choices remain unchanged.",
+      "url": "https://foxyffucn.github.io/hdd-updates/patches/hdd-offline-083-language-default-ui-consistency.zip",
+      "sha256": "1aa621e307e07717bb7ac99426b1a6dbda31d5d0ae39a2b87060c94f4a6ae975",
+      "size_bytes": 9100224
+    },
+    {
       "id": "hdd-offline-082-fairy-console-free-setup",
       "requires": "hdd-offline-081-fairy-maintenance-recovery",
       "title": "Patch 082 // FAIRY CONSOLE-FREE SETUP",
