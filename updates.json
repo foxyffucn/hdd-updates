@@ -2,6 +2,15 @@
   "format": "hdd-update-feed-v1",
   "patches": [
     {
+      "id": "hdd-offline-080-windows-startup-first-fairy-reboot",
+      "requires": "hdd-offline-079-system-wide-localization-fixes",
+      "title": "Patch 080 // WINDOWS STARTUP + FIRST FAIRY REBOOT",
+      "notes": "New Windows Startup settings: H.D.D. off by default, Fairy on after successful first Reboot; both independent. Reboot runs once per Fairy installation. Later starts launch Fairy directly without the cinematic. Existing Fairy activations are recognized. Resets/uninstalls remove startup entries.",
+      "url": "https://foxyffucn.github.io/hdd-updates/patches/hdd-offline-080-windows-startup-first-fairy-reboot.zip",
+      "sha256": "6180d1f0f0a7195f1453e6419d9c38a85c993921c6398b433302eab6cfc46eff",
+      "size_bytes": 33160
+    },
+    {
       "id": "hdd-offline-079-system-wide-localization-fixes",
       "requires": "hdd-offline-078-explorer-large-icons-fullscreen",
       "title": "Patch 079 // System-Wide Language Repair",
