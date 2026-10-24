@@ -2,6 +2,15 @@
   "format": "hdd-update-feed-v1",
   "patches": [
     {
+      "id": "hdd-offline-079-system-wide-localization-fixes",
+      "requires": "hdd-offline-078-explorer-large-icons-fullscreen",
+      "title": "Patch 079 // System-Wide Language Repair",
+      "notes": "Fixes mixed English/Portuguese text in Diagnostics, live System Monitor, Storage Analysis, Protocols, settings messages and update history; improves PT-BR/Spanish switching and preserves file paths.",
+      "url": "https://foxyffucn.github.io/hdd-updates/patches/hdd-offline-079-system-wide-localization-fixes.zip",
+      "sha256": "74a68a2f438eef9b74f1f32767add978b61a39a348190a37d7bb8a6fb2bee18c",
+      "size_bytes": 58124
+    },
+    {
       "id": "hdd-offline-078-explorer-large-icons-fullscreen",
       "requires": "hdd-offline-077-signed-fairy-module-updates",
       "title": "Patch 078 // Explorer: Large Icons + Fullscreen",
