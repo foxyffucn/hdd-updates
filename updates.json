@@ -2,6 +2,15 @@
   "format": "hdd-update-feed-v1",
   "patches": [
     {
+      "id": "hdd-offline-082-fairy-console-free-setup",
+      "requires": "hdd-offline-081-fairy-maintenance-recovery",
+      "title": "Patch 082 // FAIRY CONSOLE-FREE SETUP",
+      "notes": "Fix unwanted black Python terminal windows while installing or configuring Fairy. Language, AI providers, Fish Audio and advanced settings launch with pythonw.exe. The Fairy factory installer now hides nested pip, venv and Playwright consoles. Installation progress remains visible in H.D.D. itself.",
+      "url": "https://foxyffucn.github.io/hdd-updates/patches/hdd-offline-082-fairy-console-free-setup.zip",
+      "sha256": "3f07395bec097f9eae52fd3959d5f5aa2dba3c08825fbd04bb922616f653f8cb",
+      "size_bytes": 9082416
+    },
+    {
       "id": "hdd-offline-081-fairy-maintenance-recovery",
       "requires": "hdd-offline-080-windows-startup-first-fairy-reboot",
       "title": "Patch 081 // FAIRY MAINTENANCE RECOVERY",
