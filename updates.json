@@ -2,6 +2,15 @@
   "format": "hdd-update-feed-v1",
   "patches": [
     {
+      "id": "hdd-offline-081-fairy-maintenance-recovery",
+      "requires": "hdd-offline-080-windows-startup-first-fairy-reboot",
+      "title": "Patch 081 // FAIRY MAINTENANCE RECOVERY",
+      "notes": "Fairy Management maintenance repaired: confirmation buttons instead of typing phrases; scoped Fairy shutdown, optional force-close approval, cache lock diagnostics, safe factory backups with rollback, and reliable Windows Recycle Bin fallback. Original Fairy project is never affected.",
+      "url": "https://foxyffucn.github.io/hdd-updates/patches/hdd-offline-081-fairy-maintenance-recovery.zip",
+      "sha256": "42b90899fc1993e6c68fa486faf3c1431987ac07bf237638d4e081ec2e911995",
+      "size_bytes": 10547
+    },
+    {
       "id": "hdd-offline-080-windows-startup-first-fairy-reboot",
       "requires": "hdd-offline-079-system-wide-localization-fixes",
       "title": "Patch 080 // WINDOWS STARTUP + FIRST FAIRY REBOOT",
